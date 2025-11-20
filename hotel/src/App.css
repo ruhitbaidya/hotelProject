@@ -1,0 +1,15 @@
+*{
+    font-family: "Jost", sans-serif;
+}
+.bgImage{
+    background: url("./assets/bg2.jpg");
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: cover;
+
+}
+
+.bgcolor{
+    background: #271919bd;
+    height: 100%;
+}
