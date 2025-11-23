@@ -6,6 +6,7 @@ import Contact from "../pages/Contact";
 import TreamCondition from "../pages/TreamCondition";
 import AllProduct from "../pages/AllProduct";
 import PrivacyPolicy from "../pages/PrivacyPolicy";
+import Dashboard from "../components/Dashboard";
 
 const router = createBrowserRouter([
   {
@@ -37,6 +38,10 @@ const router = createBrowserRouter([
         element: <PrivacyPolicy />,
       },
     ],
+  },
+  {
+    path: "/bashboard",
+    element: <Dashboard />,
   },
 ]);
 export default router;
