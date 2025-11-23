@@ -7,6 +7,7 @@ import TreamCondition from "../pages/TreamCondition";
 import AllProduct from "../pages/AllProduct";
 import PrivacyPolicy from "../pages/PrivacyPolicy";
 import Dashboard from "../components/Dashboard";
+import LoginPage from "../pages/Login";
 
 const router = createBrowserRouter([
   {
@@ -40,8 +41,12 @@ const router = createBrowserRouter([
     ],
   },
   {
-    path: "/bashboard",
+    path: "/dashboard",
     element: <Dashboard />,
+  },
+  {
+    path: "/login",
+    element: <LoginPage />,
   },
 ]);
 export default router;
