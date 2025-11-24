@@ -38,6 +38,7 @@ const router = createBrowserRouter([
         path: "/privacyPolicy",
         element: <PrivacyPolicy />,
       },
+      {},
     ],
   },
   {

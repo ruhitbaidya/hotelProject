@@ -53,7 +53,7 @@ const Header = () => {
                   </Link>
                 </div>
               </div>
-              <div className="border border-[#0466c8] mt-[30px] p-[15px] rounded-[5px]">
+              <div className="bg-gray-200 mt-[30px] p-[15px] rounded-[5px]">
                 <div className="flex justify-center items-center">
                   <label htmlFor="search" className="relative w-full">
                     <div className="absolute left-1 top-[8px] text-[#0466c8]">
